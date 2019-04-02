@@ -6,3 +6,4 @@ git commit -m 'note' 暂存区提交到分支（master）
 git diff HEAD readme.txt 查看分支与本地代码的区别
 git checkout -- readme.txt 从工作区撤销修改 记得加‘--’
 git reset HEAD readme.txt 从暂存区撤销到工作区 
+git checkout -b dev 创建dev分支 -b并切换到dev分支
