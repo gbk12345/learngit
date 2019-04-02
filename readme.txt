@@ -11,3 +11,5 @@ git branch 查看分支
 git checkout (分支名) 切换分支
 git branch -d (分子名) 删除分支
 git merge (分支名) 合并分支
+git pull 拉取远程分支最新代码
+git push -u origin/master 提交到远程分支
