@@ -8,6 +8,6 @@ git checkout -- readme.txt 从工作区撤销修改 记得加‘--’
 git reset HEAD readme.txt 从暂存区撤销到工作区 
 git checkout -b dev 创建dev分支 -b并切换到dev分支
 git branch 查看分支
-git branch (分支名) 切换分支
+git checkout (分支名) 切换分支
 git branch -d (分子名) 删除分支
 git merge (分支名) 合并分支
